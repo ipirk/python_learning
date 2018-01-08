@@ -1,1 +1,10 @@
 https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+no inicio :
+>git remote add origin https://github.com/user/some_repo.git
+pull changes to local repo:
+>git pull origin master
+fazer alterações......
+>git add <filename>
+>git commit
+>git push origin master
