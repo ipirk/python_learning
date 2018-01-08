@@ -1,9 +1,0 @@
-bandwith_time.py
-check_sudoku.py
-crawler.py
-days_between_dates.py
-git_guide_link.txt
-print_abacus.py
-README.md
-split_string.py
-teste.txt
