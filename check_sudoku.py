@@ -56,7 +56,7 @@ def check_table(sudoku):
         if temp[y][0]==1:
             while x < size:
                 #print sudoku[y][x]
-                if temp[y][x] <> x+1:
+                if temp[y][x] != x+1:
                     check=0
                 x+=1
         else:
@@ -87,13 +87,14 @@ def check_sudoku(p):
         transposto=transpose(p)
         check=check_table(p) 
     return check  
-a=time()
-print check_sudoku(correct)
-print time()-a
 
 a=time()
-print check_sudoku2(correct)
-print time()-a
+print (check_sudoku(correct))
+print (time()-a)
+
+a=time()
+print (check_sudoku2(correct))
+print (time()-a)
 
 
 

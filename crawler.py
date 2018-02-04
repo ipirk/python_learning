@@ -142,14 +142,14 @@ add_to_index(index,"test3","url1")
 add_to_index(index,"test","url2")
 add_to_index(index,"test","url1")
 for sublist in index:
-    print sublist
+    print (sublist)
 record_user_click(index, "test", "url1")
 record_user_click(index, "test", "url2")
 record_user_click(index, "test", "url1")
 record_user_click(index, "test3", "url1")
-print "-------------------------------------------------"
+print ("-------------------------------------------------")
 for sublist in index:
-    print sublist
+    print (sublist)
     
   
 
