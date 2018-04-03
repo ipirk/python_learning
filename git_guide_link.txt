@@ -1,5 +1,7 @@
 https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
+antes de mais nada criar directoria e dentro desta
+>git init
 no inicio :
 >git remote add origin https://github.com/user/some_repo.git
 pull changes to local repo:
